@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="signup.js"></script>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="box">
+        <label class="center">Login form</label>
+        <form action="" name="myform">
+            <label class="padd" >first name</label>
+            <input type="text" id="fname" oninput="check1()">
+            <label for="" id="flabel"></label>
+            <br><br>
+
+            <label class="padd" >last name</label>
+            <input type="text" id="lname" oninput="check2()">
+            <label for="" id="llabel"></label>
+            <br><br>
+
+            <label class="padd" >Email</label>
+            <input type="text" id="email" oninput="check3()">
+            <label for="" id="elabel"></label>
+            <br><br>
+
+            <label class="padd" >password</label>
+            <input type="text" id="password" oninput="pcheck()">
+            <label for="" id="plabel"></label>
+            <br><br>
+            <br>
+            <button onclick="onsubmitt()">Submit</button>
+        </form>
+    </div>
+
+    <!-- <script src="signup.js"></script> -->
+</body>
+</html>
